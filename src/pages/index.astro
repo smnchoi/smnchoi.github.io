@@ -22,13 +22,22 @@ const projects: CollectionEntry<"projects">[] = (
 
 <Layout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <h1 class="animate font-semibold text-black dark:text-white">
-      Introducing Astro Micro 🔬
+    <!--배경   -->
+    <div
+      class="z-index:-1 absolute inset-0 mt-8 h-48 w-full bg-cover bg-center bg-no-repeat blur-sm"
+      style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2449994.jpg&f=1&nofb=1&ipt=378677db8ea3d8d62a530ed40852eb5b7c5c220b0d61b14a18972bf940de937b&ipo=images');"
+    >
+    </div>
+
+    <h1 class="animate mt-48 font-semibold text-black dark:text-white">
+      🏗️ 우리 블로그 정상영업 합니다.
     </h1>
+
     <div class="space-y-16">
       <section>
         <article class="space-y-4">
           <span class="animate">
+            <p>Introducing Astro Micro 🔬</p>
             <p>
               Astro Micro is an accessible theme for <Link
                 href="https://astro.build/">Astro</Link
@@ -100,7 +109,9 @@ const projects: CollectionEntry<"projects">[] = (
       </section>
 
       <section class="animate space-y-4">
-        <h2 class="font-semibold text-black dark:text-white">Let's Connect</h2>
+        <h2 class="font-semibold text-black dark:text-white">
+          Let's Connect 🙋🏻‍♂️
+        </h2>
         <article>
           <p>
             If you want to get in touch with me about something or just to say
